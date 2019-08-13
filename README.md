@@ -2,7 +2,7 @@
 <img src="https://image.noelshack.com/fichiers/2019/33/2/1565714805-fork.jpg"/>
 A module for Quill rich text editor to allow images to be resized.
 
-It's a fork [quill-image-resize-module](https://github.com/kensnyder/quill-image-resize-module),
+It's a fork of [quill-image-resize-module](https://github.com/kensnyder/quill-image-resize-module),
 the "Crop" module resize the images with a canvas and produce lighter images and *that makes all the difference*!
 
 ### How does it work? 
@@ -29,7 +29,7 @@ const quill = new Quill(editor, {
     // ...
     modules: {
         // ...
-        ImageResize: {
+        imageResize: {
             modules: [ 'Crop'/*, ... */ ]
         }
     }
